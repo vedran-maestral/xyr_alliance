@@ -28,10 +28,10 @@
               {{#each itemController="todo"}}
               <li {{bind-attr class="isCompleted:completed isEditing:editing"}}>
               {{#if isEditing}}
-              <input class="edit">
+              {{edit-todo class="edit" value=title focus-out="acceptChanges" insert-newline="acceptChanges"}}
               {{else}}
               {{input type="checkbox" checked=isCompleted class="toggle"}}
-              <label {{action "editTodo" on="doubleClick"}}>{{title}}</label><button class="destroy"></button>
+              <label {{action "editTodo" on="doubleClick"}}>{{title}}</label><button {{action removeTodo}} class="destroy"></button>
               {{/if}}
               </li>
               {{/each}}
@@ -71,6 +71,7 @@
   <script src="js/models/user.js"></script>
   <script src="js/controllers/todos_controller.js"></script>
   <script src="js/controllers/todo_controller.js"></script>
+  <script src="js/views/edit_todo_view.js"></script>
 
 
   <!-- to activate the test runner, add the "?test" query string parameter -->
