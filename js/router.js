@@ -8,5 +8,22 @@
 
 
 Todos.Router.map(function() {
-    this.resource('todos', { path: '/' });
+    this.resource('todos', { path: '/' }, function() {
+        this.resource('user', { path: '/user' });
+    });
 });
+
+ //This is reading the model
+Todos.TodosRoute = Ember.Route.extend({
+    model: function() {
+        return this.store.find('todo');
+    }
+});
+
+Todos.UserRoute = Ember.Route.extend({
+    model: function() {
+        return this.store.find('user');
+    }
+});
+
+
