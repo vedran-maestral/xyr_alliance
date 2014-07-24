@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/views/edit_todo_view.js" afterPath="$PROJECT_DIR$/js/views/edit_todo_view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/models/alliance.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers/alliance_controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers/alliances_controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/router.js" afterPath="$PROJECT_DIR$/js/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/models/todo.js" afterPath="$PROJECT_DIR$/js/models/todo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/todo_controller.js" afterPath="$PROJECT_DIR$/js/controllers/todo_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="emberfun.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406041114245" ignored="false" />
-    <file path="/app.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406103102193" ignored="false" />
-    <file path="/index.html" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406118048252" ignored="false" />
+    <file path="/app.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406182898588" ignored="false" />
+    <file path="/index.html" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406186366567" ignored="false" />
     <file path="/a.dummy" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406099202000" ignored="false" />
     <file path="D:/Development/WRGDEV/wrg-client/wrg-client/js/views/alumni/portfolio/edit/experience_form_view.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406101550094" ignored="false" />
     <file path="/experience_form_view.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406098942739" ignored="false" />
@@ -20,11 +25,14 @@
     <file path="D:/Development/WRGDEV/wrg-client/wrg-client/js/views/portfolio/experience_itemview.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406100286099" ignored="false" />
     <file path="D:/Development/WRGDEV/wrg-client/wrg-client/js/views/college/edit/media_form_view.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406100984839" ignored="false" />
     <file path="D:/Development/WRGDEV/wrg-client/wrg-client/js/views/groups/edit/media_form_view.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406101207512" ignored="false" />
-    <file path="/router.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406105795826" ignored="false" />
+    <file path="/router.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406185714697" ignored="false" />
     <file path="/todo.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406105305152" ignored="false" />
     <file path="/user.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406104686280" ignored="false" />
-    <file path="/todos_controller.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406114671000" ignored="false" />
+    <file path="/todos_controller.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406125856041" ignored="false" />
     <file path="/todo_controller.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406117941485" ignored="false" />
+    <file path="/alliance.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406126890794" ignored="false" />
+    <file path="/alliance_controller.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406183424062" ignored="false" />
+    <file path="/alliances_controller.js" changelist="1acc41e4-9fa2-4b42-8106-ec6178eb6d9e" time="1406126444770" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +52,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="104" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.6119829">
+            <state line="64" column="96" selection-start="1945" selection-end="1945" vertical-scroll-proportion="-15.846154">
               <folding />
             </state>
           </provider>
@@ -64,32 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todos_controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controllers/todos_controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="9" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#161#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todo_controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controllers/todo_controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="27" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#161#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="router.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="37" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+            <state line="21" column="8" selection-start="515" selection-end="515" vertical-scroll-proportion="0.35075653">
               <folding>
                 <element signature="e#0#160#0" expanded="false" />
               </folding>
@@ -100,16 +86,16 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="12" selection-start="7" selection-end="12" vertical-scroll-proportion="0.0">
+            <state line="9" column="65" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/models/todo.js">
+      <file leaf-file-name="todos_controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controllers/todos_controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
+            <state line="11" column="6" selection-start="247" selection-end="248" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#161#0" expanded="false" />
               </folding>
@@ -117,19 +103,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="normalize.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <file leaf-file-name="alliances_controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controllers/alliances_controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="414" column="0" selection-start="8592" selection-end="8592" vertical-scroll-proportion="-26.72">
+            <state line="12" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/models/user.js">
+      <file leaf-file-name="alliance_controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controllers/alliance_controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
+            <state line="14" column="22" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controllers/todo_controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="28" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#161#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alliance.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/models/alliance.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="12" selection-start="518" selection-end="522" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#160#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/models/todo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="27" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#161#0" expanded="false" />
               </folding>
@@ -156,15 +173,18 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/model/todo.js" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/models/user.js" />
-        <option value="$PROJECT_DIR$/js/models/todo.js" />
-        <option value="$PROJECT_DIR$/js/router.js" />
-        <option value="$PROJECT_DIR$/js/controllers/todos_controller.js" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
         <option value="$PROJECT_DIR$/js/views/edit_todo_view.js" />
         <option value="$PROJECT_DIR$/js/controllers/todo_controller.js" />
+        <option value="$PROJECT_DIR$/js/controllers/todos_controller.js" />
+        <option value="$PROJECT_DIR$/js/controllers/alliances_controller.js" />
+        <option value="$PROJECT_DIR$/js/models/alliance.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/js/controllers/alliance_controller.js" />
+        <option value="$PROJECT_DIR$/js/models/todo.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/router.js" />
       </list>
     </option>
   </component>
@@ -229,6 +249,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberfun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberfun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -261,6 +295,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberfun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberfun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberfun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberfun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberfun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberfun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -273,10 +361,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/serv.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../fullstack/Full-Stack-JS-Nodember-master" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\VedranMa\Desktop\xyralityEmber\v1.0\emberfun\js\controllers" />
       <recent name="C:\Users\VedranMa\Desktop\xyralityEmber\v1.0\emberfun\js\libs" />
     </key>
   </component>
@@ -393,13 +482,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/libs/ember-data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -423,35 +505,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/router.js">
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="37" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#160#0" expanded="false" />
-          </folding>
+        <state line="414" column="0" selection-start="8592" selection-end="8592" vertical-scroll-proportion="-26.72">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/todo.js">
+    <entry file="file://$PROJECT_DIR$/js/libs/ember-data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#161#0" expanded="false" />
-          </folding>
+        <state line="2489" column="61" selection-start="81890" selection-end="81893" vertical-scroll-proportion="0.33236575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="7" selection-end="12" vertical-scroll-proportion="0.0">
+        <state line="9" column="65" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+    <entry file="file://$PROJECT_DIR$/js/controllers/todos_controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="414" column="0" selection-start="8592" selection-end="8592" vertical-scroll-proportion="-26.72">
-          <folding />
+        <state line="11" column="6" selection-start="247" selection-end="248" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#161#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -464,18 +551,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/todos_controller.js">
+    <entry file="file://$PROJECT_DIR$/js/controllers/alliances_controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="9" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/alliance_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="22" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/models/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#161#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/models/alliance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="12" selection-start="518" selection-end="522" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#160#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/todo_controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="27" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+        <state line="27" column="28" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#161#0" expanded="false" />
           </folding>
@@ -484,8 +594,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="104" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.6119829">
+        <state line="64" column="96" selection-start="1945" selection-end="1945" vertical-scroll-proportion="-15.846154">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="8" selection-start="515" selection-end="515" vertical-scroll-proportion="0.35075653">
+          <folding>
+            <element signature="e#0#160#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

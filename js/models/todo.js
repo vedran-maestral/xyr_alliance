@@ -14,7 +14,7 @@ Todos.Todo = DS.Model.extend({
 Todos.Todo.FIXTURES = [
     {
         id: 1,
-        title: 'Learn Ember.js',
+        title: 'haman zaman',
         isCompleted: true
     },
     {
