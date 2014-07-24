@@ -7,14 +7,14 @@
  */
 
 
-Todos.Alliance = DS.Model.extend({
+XyralityAlliance.Alliance = DS.Model.extend({
     name: DS.attr('string'),
     alliance: DS.attr('string'),
     status: DS.attr('string'),
-    yay: DS.attr('string') //string for now Untill I figure how to workj with date
+    date: DS.attr('string') //string for now Untill I figure how to workj with date
 });
 
-Todos.Alliance.FIXTURES = [
+XyralityAlliance.Alliance.FIXTURES = [
     {
         id: 1,
         name: 'Vedran',

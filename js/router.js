@@ -6,66 +6,21 @@
  * To change this template use File | Settings | File Templates.
  */
 
+
+XyralityAlliance.Router.map(function () {
+    this.resource('allianceusers', { path: '/' });
+});
+
+
     //This is reading the model  and main entry route
-Todos.TodosRoute = Ember.Route.extend({
-    model: function() {
-        return this.store.find('todo');
-    }
-});
-
-
-Todos.Router.map(function () {
-    this.resource('todos', { path: '/' }, function() {
-        // additional child routes
-        this.route('active');
-        this.route('complete');
-
-    });
-});
-
-Todos.TodosActiveRoute = Ember.Route.extend({
-    model: function(){
-        return this.store.filter('todo', function(todo) {
-            return !todo.get('isCompleted');
-        });
-    },
-    renderTemplate: function(controller) {
-        this.render('todos/index', {controller: controller});
-    }
-});
-
-Todos.TodosCompleteRoute = Ember.Route.extend({
-    model: function(){
-        return this.store.filter('todo', function(todo) {
-            return todo.get('isCompleted');
-        });
-    },
-    renderTemplate: function(controller) {
-        this.render('todos/index', {controller: controller});
-    }
-});
-
-
-
-
-
-//ALLIANCE
-Todos.Router.map(function () {
-    this.resource('alliance', { path: '/alliance' })
-});
-
-Todos.AllianceRoute = Ember.Route.extend({
+XyralityAlliance.AllianceusersRoute = Ember.Route.extend({
     model: function() {
 
-        return this.store.find('alliance');
-    }  /*,
-    setupController: function(controller, model) {
-        controller.set('content', model);
-    }*/
+        var a = this.store.find('allianceuser');
+        debugger;
+        return this.store.find('allianceuser');
+    }
 });
 
-               //todos
-//todos/index
-
-
+//model se szove Todo
 

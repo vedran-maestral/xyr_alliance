@@ -25,17 +25,22 @@
     <button>CLICK ME:</button>
 </script>
 
-<script type="text/x-handlebars" data-template-name="alliance">
+<script type="text/x-handlebars" data-template-name="Allianceuser">
     LIST:
 
-    <ul id="alliance-list">
-        //{{#each content itemController="alliance"}}
+    <ul id="user-list">
+        {{#each content}}
         <li>
-            <label>{{name}}</label>   <button {{action removeAllianceEntry}} class="destroy">Remove Entry</button>
+            <label>{{name}}</label>
         </li>
-       // {{/each}}
+        {{/each}}
     </ul>
 </script>
+
+
+
+
+
 
 
 
@@ -79,15 +84,21 @@
   <script src="js/libs/ember-1.6.1.js"></script>
   <script src="js/libs/ember-data.js"></script>
   <script src="js/app.js"></script>
+
   <script src="js/router.js"></script>
-  <script src="js/models/todo.js"></script>
+
+  <script src="js/models/allianceuser.js"></script>
   <script src="js/models/alliance.js"></script>
+  <script src="js/controllers/user_controller.js"></script>
+ <!-- <script src="js/controllers/users_controller.js"></script>-->
+
+ <!--
   <script src="js/controllers/todos_controller.js"></script>
   <script src="js/controllers/todo_controller.js"></script>
   <script src="js/controllers/alliances_controller.js"></script>
   <script src="js/controllers/alliance_controller.js"></script>
   <script src="js/views/edit_todo_view.js"></script>
-
+-->
 
   <!-- to activate the test runner, add the "?test" query string parameter -->
   <script src="tests/runner.js"></script>
